@@ -1,0 +1,16 @@
+.main-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+}
+.home-con {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.text-con {
+    display:flex;
+    align-items: center;
+    font-size: 60px;
+}
