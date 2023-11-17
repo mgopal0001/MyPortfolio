@@ -8,9 +8,23 @@
   width: 70%;
   display: flex;
   justify-content: space-between;
+  height: 100vh;
+}
+@media screen and (max-width: 500px) {
+  .home-con {
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  img {
+    width:350px;
+        height:350px;
+  }
 }
 .text-con {
-    display:flex;
-    align-items: center;
-    font-size: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
 }
