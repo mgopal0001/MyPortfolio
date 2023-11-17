@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home-con">
           <div className="text-con">
             <h1>
-              Hi There!<span>👋🏻</span> <br />{" "}
+              Hi There!<span className="wave">👋🏻</span> <br />{" "}
               I'M
               <strong className="main-name"> Madan Gopal</strong>
               <Type/>
