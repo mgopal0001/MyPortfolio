@@ -1,0 +1,12 @@
+.about-con {
+    padding-top:100px;
+    display:flex;
+}
+.purple {
+    color:purple;
+}
+.about-text-con {
+    font-size: 20px;
+    font-weight: 500;
+    padding:20px;
+}
