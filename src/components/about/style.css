@@ -1,6 +1,8 @@
 .about-con {
     display:flex;
     align-items: center;
+    justify-content: center;
+    padding-top:100px;
 
 }
 .purple {
@@ -15,7 +17,7 @@
 
 @media screen and (max-width: 500px) {
     .about-con {
-        margin-top:100px;
+        padding-top:0px;
         display:flex;
         flex-direction: column;
         
@@ -25,3 +27,24 @@
     }
 
 }
+.about-main-con {
+
+}
+.tech-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }

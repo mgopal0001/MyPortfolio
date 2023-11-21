@@ -4,7 +4,7 @@ import Type from "./Type";
 const Home = () => {
   return (
     <>
-      <div className="main-con">
+      <div className="home-main-con">
         <div className="home-con">
           <div className="text-con">
             <h1>

@@ -3,11 +3,13 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import "./style.css";
 import AboutImage from "../../assets/about-image.png";
+import Techstack from "./Techstack";
+import Toolstack from "./Toolstack";
 
 const About = () => {
   return (
     <>
-      <div className="main-con">
+      <div className="about-main-con">
         <div className="about-con">
           <div className="about-text-con">
             <p style={{ textAlign: "justify" }}>
@@ -39,6 +41,14 @@ const About = () => {
           <div className="about-image-con">
             <img src={AboutImage} className="about-img" width={700} />
           </div>
+        </div>
+        <div className="skills-con">
+        <h2>Professional <strong className="purple">Skillset </strong></h2>
+          <Techstack/>
+        </div>
+        <div className="tools-con">
+        <h2>Tools <strong className="purple">I use </strong></h2>
+          <Toolstack/>
         </div>
       </div>
     </>
