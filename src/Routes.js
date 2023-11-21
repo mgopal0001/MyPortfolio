@@ -1,6 +1,7 @@
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
+import Projects from "./components/projects/Projects";
 
 export const routes = [
     {
@@ -19,4 +20,8 @@ export const routes = [
         path:"/resume",
         component:<Resume/>,
     },
+    {
+        path:"/projects",
+        component:<Projects/>,
+    }
 ]

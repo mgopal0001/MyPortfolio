@@ -8,13 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family:'DM sans', sans-serif;
   color:white;
-
-
-  background: linear-gradient(to right bottom, #020106, #241e3e, #473377, #7447b1, #aa57ec);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
+  background:black;
 
   
   code {
@@ -27,9 +21,7 @@ body {
 }
 
 }
-.navbar {
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-  
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }

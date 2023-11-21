@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 const NavBar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      {/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           
           <button
@@ -20,7 +21,7 @@ const NavBar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/home">
+                <Link class="nav-link" aria-current="page" to="/home">
                   Home
                 </Link>
               </li>
@@ -47,7 +48,22 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="/home"><h3>MG</h3></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto text-center">
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link href="https://superlative-daifuku-8372a7.netlify.app/" target="_blank">Blog</Nav.Link>
+
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </>
   );
 };
