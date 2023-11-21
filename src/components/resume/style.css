@@ -4,4 +4,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:20px;
+    padding-bottom: 40px;
 }
+.mobile-btn-con {
+    display:none;
+    @media (max-width: 767px) {
+        position: fixed;
+        bottom: 30px;
+        right: 16px;
+        display: block;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        z-index: 1000; /* Adjust as needed */
+        
+      }
+}
+.btn-con {
+    @media(max-width:767px) {
+        display:none;
+    }
+}
+

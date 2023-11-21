@@ -7,7 +7,6 @@ import "./style.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
@@ -18,25 +17,34 @@ const Resume = () => {
   return (
     <>
       <div className="resume-con">
-        <Button
-          variant="primary"
-          href={pdf}
-          target="_blank"
-          style={{ maxWidth: "250px" }}
-        >
+        <div className="btn-con">
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
             Download CV
-        </Button>
+          </Button>
+        </div>
         <Document file={pdf}>
-          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} renderTextLayer={false}/>
+          <Page
+            pageNumber={1}
+            scale={width > 786 ? 1.7 : 0.6}
+            renderTextLayer={false}
+          />
         </Document>
+        <div className="mobile-btn-con">
         <Button
-          variant="primary"
-          href={pdf}
-          target="_blank"
-          style={{ maxWidth: "250px" }}
-        >
-            Download CV
-        </Button>
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            ⬇
+          </Button>
+        </div>
+        
       </div>
     </>
   );
