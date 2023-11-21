@@ -50,8 +50,8 @@ const NavBar = () => {
         </div>
       </nav> */}
 
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/home"><h3>MG</h3></Navbar.Brand>
+      <Navbar bg="transparent" variant="dark" expand="lg">
+        <Navbar.Brand href="/home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-center">

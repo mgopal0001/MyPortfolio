@@ -2,28 +2,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* 100% of the viewport height */
+  height: 85vh; /* 100% of the viewport height */
 }
 .home-con {
   width: 70%;
   display: flex;
   justify-content: space-between;
-  height: 100vh;
   align-items: center;
 }
 @media screen and (max-width: 500px) {
   .home-con {
+    display:flex;
     flex-direction: column;
-    padding-top: 100px;
-    justify-content: center;
+    justify-content: flex-start;
+    gap:20px;
     align-items: center;
-    gap: 40px;
     width:100%;
-    border:1px solid black;
   }
   img {
     width:350px;
     height:350px;
+    
   }
   .text-con {
     width:auto;
@@ -72,4 +71,7 @@
     100% {
       transform: rotate(0deg);
     }
+  }
+  .main-name {
+    color:rgb(225, 27, 225);
   }

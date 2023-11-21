@@ -1,23 +1,23 @@
 .resume-con{
-    padding-top:100px;
+    padding-top:20px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:20px;
-    padding-bottom: 40px;
 }
 .mobile-btn-con {
     display:none;
     @media (max-width: 767px) {
         position: fixed;
-        bottom: 30px;
+        bottom: 100px;
         right: 16px;
+        border-radius: 50px;
         display: block;
-        border-radius: 50%;
         overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
         z-index: 1000; /* Adjust as needed */
+        
         
       }
 }

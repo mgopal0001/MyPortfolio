@@ -1,23 +1,23 @@
 .about-con {
-    padding-top:100px;
     display:flex;
     align-items: center;
 
 }
 .purple {
-    color:purple;
+    color:rgb(225, 27, 225);
 }
 .about-text-con {
-    font-size: 20px;
+
+    font-size: 16px;
     font-weight: 500;
     padding:20px;
 }
 
 @media screen and (max-width: 500px) {
     .about-con {
+        margin-top:100px;
         display:flex;
         flex-direction: column;
-        margin-top:300px;
         
     }
     .about-img {
