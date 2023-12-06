@@ -10,7 +10,7 @@ export const projectDetails = [
   },
   {
     title: "ToDo Project",
-    link: "beta.cryptograd.ai",
+    link: "https://react-todo-project-three.vercel.app/",
     details:
       "The ToDo Project is a task management application designed to help individuals and teams organize and prioritize their daily activities.",
   },
