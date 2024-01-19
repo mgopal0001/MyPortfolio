@@ -26,4 +26,10 @@ export const projectDetails = [
     details:
       "Implemented a comprehensive IPL Data Project, spanning 10 years of IPL Data stored in CSV format. The primary objective was to extract, transform, and load the data by converting it into JSON format. Leveraging advanced data processing techniques, the project aimed to generate desired outputs based on specific queries.",
   },
+  {
+    title: "IPL Data Project",
+    link: "https://js-ipl-data-project-js-ipl-data-project.vercel.app/",
+    details:
+      "Implemented a comprehensive IPL Data Project, spanning 10 years of IPL Data stored in CSV format. The primary objective was to extract, transform, and load the data by converting it into JSON format. Leveraging advanced data processing techniques, the project aimed to generate desired outputs based on specific queries.",
+  },
 ];
