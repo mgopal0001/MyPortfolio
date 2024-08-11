@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 const NavBar = () => {
-  return (
-    <>
-      {/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
+	return (
+		<>
+			{/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           
           <button
@@ -50,21 +50,25 @@ const NavBar = () => {
         </div>
       </nav> */}
 
-      <Navbar bg="transparent" variant="dark" expand="lg">
-        <Navbar.Brand href="/home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto text-center">
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="https://superlative-daifuku-8372a7.netlify.app/" target="_blank">Blog</Nav.Link>
-
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </>
-  );
+			<Navbar bg="transparent" variant="dark" expand="lg">
+				<Navbar.Brand href="/home"></Navbar.Brand>
+				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				<Navbar.Collapse id="basic-navbar-nav">
+					<Nav className="mx-auto text-center">
+						<Nav.Link href="/home">Home</Nav.Link>
+						<Nav.Link href="/about">About</Nav.Link>
+						<Nav.Link href="/projects">Projects</Nav.Link>
+						<Nav.Link href="/resume">Resume</Nav.Link>
+						<Nav.Link
+							href="https://madan-gopal-blog-posts.netlify.app/"
+							target="_blank"
+						>
+							Blog
+						</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
+		</>
+	);
 };
 export default NavBar;
